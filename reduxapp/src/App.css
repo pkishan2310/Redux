@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main-div {
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 125px;
+  color: burlywood;
+}
+.inn_div {
+  padding-top: 55px;
+
+  padding-bottom: 55px;
+}
+h1,
+h2 {
+  color: #9161ab;
+}
+.plus {
+  font-size: 20px;
+}
+.quantity_input {
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 50px;
+  text-align: center;
+  height: 45px;
+  width: 45px;
+  border: 5px solid lavender;
+  font-weight: bold;
+  color: #9161ab;
+}
+.quentity-plus {
+  border: none;
+  padding: 22px;
+  width: 70px ;
+  border-radius: 50px;
+
+  cursor: pointer;
+  color: #063b00;
+  background-color: white;
+  border: 2px solid #008cba;
+}
+.quentity-minus {
+  border: none;
+  width: 70px;
+  border-radius: 50px;
+  border: 2px solid #008cba;
+  padding: 22px;
+  background-color: white;
+  cursor: pointer;
+  color: #063b00;
+}
+
+.quentity-plus:hover {
+  background-color: #008cba;
+  color: white;
+}
+
+
+.quentity-minus:hover {
+  background-color: #008cba;
+  color: white;
+}
